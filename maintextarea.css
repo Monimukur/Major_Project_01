@@ -1,0 +1,146 @@
+.text{
+    padding: 30px 10px;
+    font-size: 24px;
+    width: 70%;
+    line-height: 30px;
+}
+
+.text-box{
+    background-color: white;
+    height: 290px;
+    width: 490px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 600ms ease-out;
+}
+
+.text-box:hover{
+    background: linear-gradient(0deg, rgba(161, 161, 161, 0.282), white);
+}
+
+.box-region{
+    margin: 200px 0px;
+    display: grid;
+    grid-template-areas: 
+    "a b c",
+    "d e f";
+}
+#firstbox{
+    position: relative;
+    grid-area: a;
+    top: 150px;
+    left: -525px;
+}
+
+#secondbox{
+    grid-area: b;
+    position: relative;
+    top: 75px;
+}
+
+#thirdbox{
+    position: relative;
+    top: 0px;
+    left: 525px;
+    grid-area: c;
+}
+
+#fourthbox{
+    position: relative;
+    top: 475px;
+    left: -525px;
+    grid-area: d;
+}
+
+#fifthbox{
+    position: relative;
+    top: 400px;
+    grid-area: e;
+}
+
+#sixthbox{
+    position: relative;
+    top: 325px;
+    left: 525px;
+    grid-area: f;
+}
+
+.startup-text{
+    position: relative;
+    top: 650px;
+    left: 100px;
+    width: 600px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.num-box{
+    width: 250px !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+.num-box span{
+    font-size: 60px;
+    color: rgb(55, 55, 218);
+    position: relative;
+    top: 20px;
+}
+
+.num-region{
+    position: relative;
+    left: 600px;
+    display: grid;
+    grid-template-areas: 
+    "n1 n2",
+    "n3 n4";
+}
+
+#n1{
+    position: relative;
+    top: 50px;
+    left: -325px;
+}
+
+#n2{
+    position: relative;
+    left: -50px;
+}
+
+#n3{
+    position: relative;
+    top: 365px;
+    left: -325px;
+}
+
+#n4{
+    position: relative;
+    top: 315px;
+    left: -50px;
+}
+
+.case-study{
+    height: 100px;
+    width: 250px;
+    position: relative;
+    top: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(55, 55, 218);
+    color: white;
+    font-size: 18px;
+    transition: all 200ms ease-out;
+}
+
+.case-study:hover{
+    background-color: rgb(25, 25, 141);
+    cursor: pointer;
+}
+
+.text-box i{
+    font-size: 80px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}

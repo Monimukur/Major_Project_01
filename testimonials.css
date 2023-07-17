@@ -1,0 +1,16 @@
+.testimonials{
+    position: relative;
+    top: 500px;
+    padding: 75px;
+    font-size: 24px;
+}
+
+.test-info{
+    width: 60%;
+    line-height: 30px;
+}
+
+.test-box{
+    width: 28%;
+    line-height: 30px;
+}

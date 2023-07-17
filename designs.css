@@ -1,0 +1,114 @@
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: yellow;
+    position: absolute;
+    z-index: -1;
+}
+
+#firstcircle {
+    position: absolute;
+    left: 1100px;
+    top: 1000px;
+    background-color: rgba(82, 255, 82, 0.452);
+}
+
+#secondcircle {
+    position: absolute;
+    left: 900px;
+    top: 1300px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 81, 81, 0.463);
+}
+
+#thirdcircle {
+    position: absolute;
+    left: 1000px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(118, 12, 218, 0.488);
+    animation-name: downright;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#fourthcircle {
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    width: 100px;
+    left: 1300px;
+    background-color: rgba(0, 246, 189, 0.575);
+    animation-name: upleft;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes downright {
+    0% {
+        position: absolute;
+        top: 0px;
+        left: 1000px;
+    }
+
+    25% {
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+    }
+
+    50% {
+        position: absolute;
+        top: 600px;
+        left: 900px;
+    }
+
+    75% {
+        position: absolute;
+        top: 0px;
+        left: 1400px;
+    }
+
+    100% {
+        position: absolute;
+        top: 0px;
+        left: 1000px;
+    }
+
+}
+
+@keyframes upleft {
+    0% {
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+    }
+
+    33% {
+        position: absolute;
+        top: 200px;
+        left: 1000px;
+    }
+
+    67%{
+        position: absolute;
+        top: 500px;
+        left: 800px;
+    }
+    
+    100% {
+        position: absolute;
+        top: 500px;
+        left: 1300px;
+    }
+
+}
+
+.svg-img img{
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    left: 900px;
+}
